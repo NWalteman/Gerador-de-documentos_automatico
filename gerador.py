@@ -1,4 +1,6 @@
+# Importa a biblioteca pandas, utilizada para ler e manipular dados em tabelas (como arquivos Excel)
 import pandas as pd
+
 from docxtpl import DocxTemplate
 import os
 
