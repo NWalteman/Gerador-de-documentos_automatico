@@ -22,6 +22,7 @@ df = pd.read_excel(CAMINHO_PLANILHA)
 # Cria a pasta de saída (caso ainda não exista) para salvar os documentos gerados
 os.makedirs(PASTA_SAIDA, exist_ok=True)
 
+# Itera sobre cada linha da planilha
 for _, linha in df.iterrows():
     # Carrega o modelo do documento .docx para cada pessoa
     doc = DocxTemplate(CAMINHO_TEMPLATE)
