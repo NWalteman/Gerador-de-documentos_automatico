@@ -2,6 +2,7 @@
 import pandas as pd
 # Importa a classe DocxTemplate da biblioteca docxtpl, usada para preencher modelos (.docx) com dados
 from docxtpl import DocxTemplate
+# Importa o módulo os, que permite interagir com o sistema de arquivos (como criar pastas)
 import os
 
 CAMINHO_TEMPLATE = "colocar/aqui/o/caminho/do/template.docx"
